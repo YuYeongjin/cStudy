@@ -361,3 +361,30 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Unreal Engine
+*.sln
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+Binaries/
+Build/
+*.xcodeproj
+*.xcworkspace
+*.xcconfig
+*.DS_Store
+*.suo
+*.user
+*.userprefs
+*.o
+*.mod
+*.log
+*.vscode/
+
+# Ignore node_modules if you use npm/yarn
+node_modules/

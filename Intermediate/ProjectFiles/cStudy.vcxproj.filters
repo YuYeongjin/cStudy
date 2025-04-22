@@ -11,6 +11,9 @@
     <None Include="..\..\Source\cStudyEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -29,6 +32,12 @@
     <Filter Include="Source\cStudy">
       <UniqueIdentifier>{6E9CD2F3-473D-3121-9C16-EBC9B00677A8}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\cStudy\BasicChaacter.cpp">
+      <Filter>Source\cStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cStudy\BasicChaacter.h">
+      <Filter>Source\cStudy</Filter>
+    </ClCompile>
     <None Include="..\..\Source\cStudy\cStudy.Build.cs">
       <Filter>Source\cStudy</Filter>
     </None>
@@ -36,6 +45,24 @@
       <Filter>Source\cStudy</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\cStudy\cStudy.h">
+      <Filter>Source\cStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cStudy\MyActor.cpp">
+      <Filter>Source\cStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cStudy\MyActor.h">
+      <Filter>Source\cStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cStudy\MyCharacter.cpp">
+      <Filter>Source\cStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cStudy\MyCharacter.h">
+      <Filter>Source\cStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cStudy\MyGameModeBase.cpp">
+      <Filter>Source\cStudy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\cStudy\MyGameModeBase.h">
       <Filter>Source\cStudy</Filter>
     </ClCompile>
   </ItemGroup>
