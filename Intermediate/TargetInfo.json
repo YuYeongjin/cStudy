@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "cStudy",
+			"Path": "..\\Source\\cStudy.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "cStudyEditor",
+			"Path": "..\\Source\\cStudyEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
