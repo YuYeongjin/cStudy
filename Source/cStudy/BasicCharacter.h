@@ -7,9 +7,9 @@
 /**
  * 
  */
-class CSTUDY_API BasicChaacter
+class CSTUDY_API BasicCharacter
 {
 public:
-	BasicChaacter();
-	~BasicChaacter();
+	BasicCharacter();
+	~BasicCharacter();
 };
