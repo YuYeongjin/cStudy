@@ -32,10 +32,10 @@
     <Filter Include="Source\cStudy">
       <UniqueIdentifier>{6E9CD2F3-473D-3121-9C16-EBC9B00677A8}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\cStudy\BasicChaacter.cpp">
+    <ClCompile Include="..\..\Source\cStudy\BasicCharacter.cpp">
       <Filter>Source\cStudy</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\cStudy\BasicChaacter.h">
+    <ClCompile Include="..\..\Source\cStudy\BasicCharacter.h">
       <Filter>Source\cStudy</Filter>
     </ClCompile>
     <None Include="..\..\Source\cStudy\cStudy.Build.cs">

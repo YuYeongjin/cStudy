@@ -5,6 +5,8 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/DefaultPawn.h"
+#include "GameFramework/PlayerController.h"
 
 // Sets default values
 AMyCharacter::AMyCharacter()
@@ -47,9 +49,21 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AMyCharacter::MoveForward(float value)
 {
+	if ((Controller != NULL) && (value != 0.0f)) {
+		const FRotator Rot = Controller->GetControlRotation();
+		const FRotator YawRot(0, Rot.Yaw, 0);
+		const FVector Direction = FRotationMatrix(YawRot).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, value);
+	}
 }
 
 void AMyCharacter::MoveRight(float value)
 {
+	if ((Controller != NULL) && (value != 0.0f)) {
+		const FRotator Rot = Controller->GetControlRotation();
+		const FRotator YawRot(0, Rot.Yaw, 0);
+		const FVector Direction = FRotationMatrix(YawRot).GetUnitAxis(EAxis::Y);
+		AddMovementInput(Direction, value);
+	}
 }
 
