@@ -15,10 +15,27 @@
 	],
 	"Plugins": [
 		{
+			"Name": "Http",
+			"Enabled": true
+		},
+		{
+			"Name": "Json",
+			"Enabled": true
+		},
+		{
 			"Name": "ModelingToolsEditorMode",
 			"Enabled": true,
 			"TargetAllowList": [
 				"Editor"
+			]
+		},
+		{
+			"Name": "MQTT",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		}
 	]

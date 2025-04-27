@@ -65,5 +65,11 @@
     <ClCompile Include="..\..\Source\cStudy\MyGameModeBase.h">
       <Filter>Source\cStudy</Filter>
     </ClCompile>
+    <Filter Include="Source\cStudy\python">
+      <UniqueIdentifier>{A986033E-7934-3CFE-A8E4-8A6920E5B87C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\cStudy\python\waether_publisher.py">
+      <Filter>Source\cStudy\python</Filter>
+    </None>
   </ItemGroup>
 </Project>
